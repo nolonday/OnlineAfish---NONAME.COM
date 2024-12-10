@@ -1,0 +1,47 @@
+.film-info {
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.film-info img {
+  height: auto;
+  width: 555px;
+  border-radius: 2px;
+  border: none;
+}
+
+.film-info .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  max-width: 600px;
+}
+
+.info h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+span {
+  font-weight: 500;
+}
+
+.info hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.watch {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.watch a {
+  width: 79%;
+  background-color: red;
+}

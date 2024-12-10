@@ -1,0 +1,70 @@
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 37, 37);
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.center {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex: 1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1200px;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.buttons-year {
+  display: flex;
+  gap: 10px;
+}
+
+.years {
+  display: flex;
+  color: white;
+  margin: 30px 20px;
+  gap: 30px;
+}
+.yearNext-btn:hover {
+  transform: translateX(5px);
+}
+
+.yearBack-btn:hover {
+  transform: translateX(-5px);
+}
+
+.months-box {
+  border-radius: 2px;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.watch {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.watch a img {
+  width: 100px;
+}
+
+.watch a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
